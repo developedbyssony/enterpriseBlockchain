@@ -144,8 +144,7 @@ const feature = gsap.timeline({
     trigger: ".sc_feature",
     start: "0% 95%",
     end: "100% 80%",
-    scrub: 0,
-    markers:true,
+    scrub: 0
   },
 });
 feature.from('.sc_feature .col-left',{xPercent:-50},'a')
